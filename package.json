@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "async-wait-until": "^1.2.4",
+    "moxios": "0.4.0",
     "axios": "^0.19.2",
     "fetch-mock": "^9.1.1",
     "jest-junit": "^10.0.0",
