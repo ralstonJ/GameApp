@@ -1,13 +1,14 @@
 import React from 'react';
-
+import { Provider } from 'react-redux';
 import './App.css';
-
+import ExchangeRates from './components/exchangeRates/ExchangeRateContainer';
+import store from './store';
 
 function App() {
   return (
-    <div>
-      Here be dragons
-    </div>
+    <Provider store={store}>
+      <ExchangeRates />
+    </Provider>
   );
 }
 
